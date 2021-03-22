@@ -9,11 +9,11 @@ function connect($db_host, $db_name, $db_user, $db_pass) {
 }
 
 /**
- * Permet de faire un requête à la BDD.
+ * Permet de faire une requête à la BDD.
  * 
  * La connexion est automatiquement effectuée.
  * 
- * @param string $query La requête à effectuée.
+ * @param string $query La requête à effectuer.
  */
 function execRequest($query) {
     global $db_host;
@@ -24,10 +24,6 @@ function execRequest($query) {
     $db = connect($db_host,$db_name, $db_user, $db_pass);
 
     $datas = $db->query($query);
-
-    // 0 => jean
-    // 1 => patrick
-    // 2 => emilien
 
     // A retourner / A renvoyer
     $toReturn = [];

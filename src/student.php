@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Permet de récupérer tous les studentc
+ * Permet de récupérer tous les students
  */
 function getStudentsCount()
 {
@@ -10,7 +10,7 @@ function getStudentsCount()
 
 function getStudentOfTheWeek()
 {
-    // RENVOI TOUS LES ETUDIANT DANS UN TABLEAU
+    // RENVOIE TOUS LES ETUDIANT DANS UN TABLEAU
     return execRequest('SELECT id_e, prenom_e FROM eleve WHERE tour=1 AND status=1');
 }
 
