@@ -20,11 +20,11 @@
 
             <form action="" method="POST">
                 <input type="hidden" name="updateStudentOfTheWeek" value="true" />
-                <button class="btn btn-primary" type="submit">Mettre à jour l'étudiant</button>
+                <button class="btn btn-secondary" type="submit">Mettre à jour l'étudiant</button>
             </form>
             <a class="btn btn-secondary" href="?page=logout">Se déconnecter</a>
         <?php else: ?>
-            <a class="btn btn-primary" href="?page=login">Se connecter</a>
+            <a class="btn btn-secondary" href="?page=login">Se connecter</a>
         <?php endif; ?>
     </div>
 </body>

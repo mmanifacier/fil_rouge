@@ -14,7 +14,7 @@
                 <label for=""></label>
                 <input type="text" name="username" placeholder="Nom d'utilisateur">
                 <input type="password" name="password" placeholder="Mot de passe">
-                <button class="btn btn-primary" type="submit">Connexion</button>
+                <button class="btn btn-secondary" type="submit">Connexion</button>
             </div>
         </form>
     </div>
